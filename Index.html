@@ -55,10 +55,10 @@
                         </div>
                     </nav>
                     <div class="textos">
-                        <h1>Arq: Jesús Andrés Lujan Carrión</h1>
-                        <h2>Tus proyectos al alcancé de mis manos.</h2>
+                        <h1>Arq: Piero Portilla Brissolese - Piero Live</h1>
+                        <h2>Streaming todos los días</h2>
                     </div>
-                    <img src="img/20424727.jpg" alt="Imagen cargando">
+                    <img src="img/13038_preview_rev_1.png" alt="Imagen cargando">
                 </div>
             </header>
             <br>
@@ -366,14 +366,14 @@
         <br>
         <br>
         <br>
-        <section class="form-register">
+        <section class="form-register" id="formulario">
             <h4>Contactame</h4>
             <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese sus Nombres">
             <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos">
             <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo electronico">
-            <input class="controls" type="tel" name="correo" id="correo" placeholder="Ingrese su Número Celular">
+            <input class="controls" type="tel" name="telefonocel" id="telefonocel" placeholder="Ingrese su Número Celular">
             <textarea class="controls" name="comentario" id="comentario" cols="42" rows="5" placeholder="Ingrece un comentario"></textarea>
-            <span style="justify-items: center;"><a class="botons" type="submit" href="Index.html">Enviar</a></span>
+            <button class="botons" onclick="fnEnviar()">Enviar</button>
         </section>
         <br><br><br><br><br><br>
     </div>
@@ -401,6 +401,8 @@
     </footer>
     <br><br><br><br><br>
     <script src="js/script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/alertas.js"></script>
 </body>
 
 </html>
