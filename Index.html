@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-escalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>ArquiTec</title>
+    <title>Landing Pc</title>
     <link rel="stylesheet" href="Style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,10 +55,10 @@
                         </div>
                     </nav>
                     <div class="textos">
-                        <h1>Arq: Jesús Andrés Lujan Carrión</h1>
-                        <h2>Tus proyectos al alcancé de mis manos.</h2>
+                        <h1>Arq: Piero Portilla Brissolese - Piero Live</h1>
+                        <h2>Streaming todos los días</h2>
                     </div>
-                    <img src="./img/13038_preview_rev_1.png" alt="Imagen cargando">
+                    <img src="img/13038_preview_rev_1.png" alt="Imagen cargando">
                 </div>
             </header>
             <br>
@@ -214,7 +214,7 @@
                             </div>
                         </div>
                         <div class="comentarios-clientes">
-                            <p>“Hemos trabajado con Piero desde 2018 y en todos los negocios con clientes comunes Jesús ha mostrado una gran profesionalidad, honradez y eficacia. Esperamos poder seguir trabajando con Piero muchos años más.”</p>
+                            <p>“Hemos trabajado con Jesús desde 2003 y en todos los negocios con clientes comunes Jesús ha mostrado una gran profesionalidad, honradez y eficacia. Esperamos poder seguir trabajando con Jesús muchos años más.”</p>
                         </div>
                     </div>
                 </div>
@@ -285,7 +285,7 @@
                             </div>
                         </div>
                         <div class="comentarios-clientes">
-                            <p>“Tuvimos una muy buena experiencia con Piero cuando compramos nuestra parcela, así como trabajando con el arquitecto que él nos recomendó.”</p>
+                            <p>“Tuvimos una muy buena experiencia con Jesús cuando compramos nuestra parcela, así como trabajando con el arquitecto que él nos recomendó.”</p>
                         </div>
                     </div>
                 </div>
@@ -318,7 +318,7 @@
                             </div>
                         </div>
                         <div class="comentarios-clientes">
-                            <p>“Sólo podemos decir que, a lo largo de los años, hemos estado encantados del servicio que Piero nos ha dado. Además de ser una persona con amplio conocimiento del mercado, es muy educado y sobre todo totalmente transparente.
+                            <p>“Sólo podemos decir que, a lo largo de los años, hemos estado encantados del servicio que Jesús nos ha dado. Además de ser una persona con amplio conocimiento del mercado, es muy educado y sobre todo totalmente transparente.
                                 Nosotros no hemos dudado en recomendar sus servicios a muchas personas.”</p>
                         </div>
                     </div>
@@ -366,14 +366,14 @@
         <br>
         <br>
         <br>
-        <section class="form-register">
+        <section class="form-register" id="formulario">
             <h4>Contactame</h4>
             <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese sus Nombres">
             <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos">
             <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo electronico">
-            <input class="controls" type="tel" name="correo" id="correo" placeholder="Ingrese su Número Celular">
+            <input class="controls" type="tel" name="telefonocel" id="telefonocel" placeholder="Ingrese su Número Celular">
             <textarea class="controls" name="comentario" id="comentario" cols="42" rows="5" placeholder="Ingrece un comentario"></textarea>
-            <span style="justify-items: center;"><a class="botons" type="submit" href="Index.html">Enviar</a></span>
+            <button class="botons" onclick="fnEnviar()">Enviar</button>
         </section>
         <br><br><br><br><br><br>
     </div>
@@ -401,6 +401,8 @@
     </footer>
     <br><br><br><br><br>
     <script src="js/script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/alertas.js"></script>
 </body>
 
 </html>
