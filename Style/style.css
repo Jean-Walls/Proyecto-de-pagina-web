@@ -9,6 +9,7 @@ body {
 }
 
 .background {
+    width: 100%;
     background: #0f0c29;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
@@ -151,7 +152,7 @@ img {
 }
 
 .container-card {
-    width: 10%;
+    width: 20%;
     max-width: 1200px;
     height: 530px;
     display: flex;
@@ -200,7 +201,6 @@ img {
 }
 
 .wave {
-    height: 100px;
     width: 100%;
     background: #0f0c29;
     /* fallback for old browsers */
@@ -238,8 +238,7 @@ img {
 .comentarios {
     display: flex;
     width: 100%;
-    align-items: center;
-    margin-left: 10%;
+    justify-content: space-around;
 }
 
 .comentarios-header {
@@ -275,7 +274,8 @@ img {
 }
 
 .comentarios-box {
-    width: 600px;
+    width: 650px;
+    height: 220px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     background-color: white;
     padding: 20px;
@@ -401,14 +401,11 @@ img {
     display: flex;
     width: 100%;
     align-items: center;
-    margin-left: 23%;
+    justify-content: space-around;
 }
 
 .iconos-finales a img {
     height: 200px;
     width: auto;
-    justify-content: space-between;
-    padding: 50px;
-    margin: 70px;
     cursor: pointer;
 }
